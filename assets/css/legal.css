@@ -1,0 +1,25 @@
+@font-face{font-family:'Archivo';src:url('../fonts/archivo-var.woff2') format('woff2');font-weight:100 900;font-stretch:62% 125%;font-display:swap}
+:root{--accent:#C6F432;--ink:#0B0C0A;--muted:#4E5249;--line:#E1E3DA;--light:#F3F4EF}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--light);color:var(--ink);font-family:'Archivo',system-ui,-apple-system,sans-serif;font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased}
+a{color:var(--ink);font-weight:600}
+a:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.top{background:var(--ink);color:#fff}
+.top__in{max-width:860px;margin:0 auto;padding:16px 20px;display:flex;justify-content:space-between;align-items:center;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;color:#fff;text-decoration:none}
+.logo b{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border-radius:10px;background:var(--accent);color:var(--ink);font-weight:900}
+.logo span{font-weight:800;font-size:14px;letter-spacing:.08em}
+.back{color:#C9CDC2;font-size:15px;font-weight:600;text-decoration:none}
+.back:hover{color:var(--accent)}
+main{max-width:860px;margin:0 auto;padding:56px 20px 80px}
+h1{margin:0;font-size:clamp(32px,5vw,48px);line-height:1.08;font-weight:900;font-stretch:110%;letter-spacing:-.02em}
+.updated{margin:12px 0 0;color:var(--muted);font-size:15px}
+.card{margin-top:36px;background:#fff;border:1px solid var(--line);border-radius:22px;padding:clamp(24px,4vw,44px)}
+h2{margin:36px 0 10px;font-size:21px;font-weight:800}
+h2:first-child{margin-top:0}
+p,li{color:#2F3229}
+ul{padding-left:22px}
+li+li{margin-top:6px}
+.contact{margin-top:28px;padding:20px 22px;border-radius:16px;background:var(--light)}
+footer{max-width:860px;margin:0 auto;padding:0 20px 48px;font-size:14px;color:var(--muted);display:flex;flex-wrap:wrap;gap:8px 22px}
+footer a{color:var(--muted)}
